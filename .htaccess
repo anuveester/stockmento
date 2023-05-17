@@ -1,0 +1,9 @@
+
+
+#stopping direct folder opening
+Options -Indexes
+
+# Custom directory index files
+DirectoryIndex index.php
+
+AddHandler application/x-httpd-ea-php81 .php
